@@ -29,9 +29,6 @@ namespace SwinUnet
         Tensor mask;
         public WindowAttention(int dim, int[] window_size, int num_heads, float qk_scale, Tensor mask, bool qkv_bias = true, float attn_drop = 0.0f, float proj_drop = 0.0f, string name = "") : base(name)
         {
-            
-
-           
             var head_dim = dim / num_heads;
             this.num_heads = num_heads;
             this.window_size = window_size;

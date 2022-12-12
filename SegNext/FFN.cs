@@ -15,13 +15,11 @@ namespace SegNext
         Sequential m;
         public FFN(int in_channels, int out_channels,int hid_channels,  string name = "") : base(name)
         {
-            this.m = nn.Sequential
-                (
-                nn.Conv2d(in_channels, hid_channels, 1),
-                new DWConv3x3(hid_channels),
-                nn.GELU(),
-                nn.Conv2d(hid_channels, out_channels, 1)
-                );
+            this.m = nn.Sequential ();
+            this.m.append(nn.Conv2d(in_channels, hid_channels, 1));
+            this.m.append(new DWConv3x3(hid_channels));
+            this.m.append(nn.GELU());
+            this.m.append(nn.Conv2d(hid_channels, out_channels, 1));
             RegisterComponents();
             if (Config.DeviceType == DeviceType.CUDA) this.to(DeviceType.CUDA);
         }

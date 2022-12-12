@@ -17,7 +17,6 @@ namespace SegNext
         public DWConv3x3 (int dim= 768,  string name = "") : base(name)
         {
             this.DWConv = nn.Conv2d(dim, dim, 3, 1, 1, bias : true, groups : dim);
-
             RegisterComponents();
             if (Config.DeviceType == DeviceType.CUDA) this.to(DeviceType.CUDA);
         }
