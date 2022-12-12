@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "bwV2IpWfq5VcnE5GnQKl1T1Cim5w3yTEK9hPMIdtdU6aVeask+j0psME5ADDHEXJfj4USNEKwoG059Zp8qezaA==",
+  "success": true,
+  "projectFilePath": "D:\\Inno.Project\\CMT\\SegFormer\\SegFormer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64\\1.13.0.1\\libtorch-cuda-11.7-win-x64.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part1\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part1.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part10\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part10.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part11\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part11.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part2\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part2.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part3-fragment1\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part3-fragment1.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part3-primary\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part3-primary.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part4\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part4.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part5-fragment1\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part5-fragment1.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part5-primary\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part5-primary.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part6\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part6.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part7\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part7.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part8\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part8.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-fragment1\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-fragment1.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-fragment2\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-fragment2.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-primary\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-primary.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp\\0.99.1\\torchsharp.0.99.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp-cuda-windows\\0.99.1\\torchsharp-cuda-windows.0.99.1.nupkg.sha512"
+  ],
+  "logs": []
+}
