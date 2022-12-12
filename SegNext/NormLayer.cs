@@ -31,7 +31,6 @@ namespace SegNext
 
         public override Tensor forward(Tensor input1)
         {
-
             return this.norm.forward(input1);
         }
     }

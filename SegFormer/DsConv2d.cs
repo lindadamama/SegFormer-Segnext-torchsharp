@@ -24,7 +24,6 @@ namespace SegFormer
             RegisterComponents();
             if (Config.DeviceType == DeviceType.CUDA) this.to(DeviceType.CUDA);
         }
-
         public override Tensor forward(Tensor x)
         {
 
