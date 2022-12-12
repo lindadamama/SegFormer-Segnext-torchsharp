@@ -1,0 +1,12 @@
+D:\Inno.Project\CMT\SwinUnet\bin\Debug\net7.0\SwinUnet.deps.json
+D:\Inno.Project\CMT\SwinUnet\bin\Debug\net7.0\SwinUnet.dll
+D:\Inno.Project\CMT\SwinUnet\bin\Debug\net7.0\SwinUnet.pdb
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.csproj.AssemblyReference.cache
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.AssemblyInfoInputs.cache
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.AssemblyInfo.cs
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.csproj.CoreCompileInputs.cache
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.dll
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\refint\SwinUnet.dll
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\SwinUnet.pdb
+D:\Inno.Project\CMT\SwinUnet\obj\Debug\net7.0\ref\SwinUnet.dll

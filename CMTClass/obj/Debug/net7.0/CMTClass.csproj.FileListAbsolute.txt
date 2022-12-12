@@ -1,0 +1,12 @@
+D:\Inno.Project\CMT\CMTClass\bin\Debug\net7.0\CMTClass.deps.json
+D:\Inno.Project\CMT\CMTClass\bin\Debug\net7.0\CMTClass.dll
+D:\Inno.Project\CMT\CMTClass\bin\Debug\net7.0\CMTClass.pdb
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.csproj.AssemblyReference.cache
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.AssemblyInfoInputs.cache
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.AssemblyInfo.cs
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.csproj.CoreCompileInputs.cache
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.dll
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\refint\CMTClass.dll
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\CMTClass.pdb
+D:\Inno.Project\CMT\CMTClass\obj\Debug\net7.0\ref\CMTClass.dll

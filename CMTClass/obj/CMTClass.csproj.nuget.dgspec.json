@@ -54,6 +54,10 @@
             "TorchSharp-cuda-windows": {
               "target": "Package",
               "version": "[0.99.1, )"
+            },
+            "TorchVision": {
+              "target": "Package",
+              "version": "[0.99.1, )"
             }
           },
           "imports": [

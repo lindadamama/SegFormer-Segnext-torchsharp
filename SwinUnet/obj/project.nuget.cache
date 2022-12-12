@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m5uEmGpKz0Xda4TwWBWxqSeL2p2aNpwKi1hJmgn2OEM5dv5OKZI5SNISz4niPzxsAIYZZpWCrYpVIS+flcxa4w==",
+  "dgSpecHash": "DevgmP/DDy1I1oM/TmRru3jCPZmN90uhUk7/oHgdie9vy0X+nSEJlf6LGyQvoMsk8SVRE8KH0L6yCbe6bo2jdQ==",
   "success": true,
   "projectFilePath": "D:\\Inno.Project\\CMT\\SwinUnet\\SwinUnet.csproj",
   "expectedPackageFiles": [
@@ -21,9 +21,14 @@
     "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-fragment1\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-fragment1.1.13.0.1.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-fragment2\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-fragment2.1.13.0.1.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-primary\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-primary.1.13.0.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp.nativeassets.linux.nodependencies\\2.88.3\\skiasharp.nativeassets.linux.nodependencies.2.88.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp\\0.99.1\\torchsharp.0.99.1.nupkg.sha512",
-    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp-cuda-windows\\0.99.1\\torchsharp-cuda-windows.0.99.1.nupkg.sha512"
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp-cuda-windows\\0.99.1\\torchsharp-cuda-windows.0.99.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchvision\\0.99.1\\torchvision.0.99.1.nupkg.sha512"
   ],
   "logs": []
 }

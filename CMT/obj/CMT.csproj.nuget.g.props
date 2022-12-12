@@ -15,6 +15,7 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)torchsharp\0.99.1\buildTransitive\net6.0\TorchSharp.props" Condition="Exists('$(NuGetPackageRoot)torchsharp\0.99.1\buildTransitive\net6.0\TorchSharp.props')" />
+    <Import Project="$(NuGetPackageRoot)torchvision\0.99.1\buildTransitive\netcoreapp3.1\TorchVision.props" Condition="Exists('$(NuGetPackageRoot)torchvision\0.99.1\buildTransitive\netcoreapp3.1\TorchVision.props')" />
     <Import Project="$(NuGetPackageRoot)libtorch-cuda-11.7-win-x64-part9-primary\1.13.0.1\buildTransitive\netstandard2.0\libtorch-cuda-11.7-win-x64-part9-primary.props" Condition="Exists('$(NuGetPackageRoot)libtorch-cuda-11.7-win-x64-part9-primary\1.13.0.1\buildTransitive\netstandard2.0\libtorch-cuda-11.7-win-x64-part9-primary.props')" />
     <Import Project="$(NuGetPackageRoot)libtorch-cuda-11.7-win-x64-part9-fragment2\1.13.0.1\buildTransitive\netstandard2.0\libtorch-cuda-11.7-win-x64-part9-fragment2.props" Condition="Exists('$(NuGetPackageRoot)libtorch-cuda-11.7-win-x64-part9-fragment2\1.13.0.1\buildTransitive\netstandard2.0\libtorch-cuda-11.7-win-x64-part9-fragment2.props')" />
     <Import Project="$(NuGetPackageRoot)libtorch-cuda-11.7-win-x64-part9-fragment1\1.13.0.1\buildTransitive\netstandard2.0\libtorch-cuda-11.7-win-x64-part9-fragment1.props" Condition="Exists('$(NuGetPackageRoot)libtorch-cuda-11.7-win-x64-part9-fragment1\1.13.0.1\buildTransitive\netstandard2.0\libtorch-cuda-11.7-win-x64-part9-fragment1.props')" />

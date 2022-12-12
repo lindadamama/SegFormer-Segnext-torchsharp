@@ -7,6 +7,7 @@ using static TorchSharp.torch.nn;
 using static TorchSharp.torch.nn.functional;
 using OpenCvSharp;
 
+
 Mat mat = Mat.Zeros(300,400,MatType.CV_8UC1);
 var contours = new List<List<Point>>();
 contours.Add(new List<Point>() { new Point() {X=100,Y=100 }, new Point() { X = 110, Y = 120 }, new Point() { X = 110, Y = 130 } });    

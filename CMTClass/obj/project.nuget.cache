@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nc5wSddvV3fgR3gwH1H6WeLYi4bSiCcvj+iE78wLIPNJ3hTvLoVGoSs+nVVRXZ6wzheZWTzLy5ACKNOBiY9wPg==",
+  "dgSpecHash": "P5RHxlTwwrVpV/KWlnTrO28kIk0ZlpVvriowpz4uX+h+2W+xjz6LQSvugjiSJxZelPlN7v+g1gPPChcGcugRHw==",
   "success": true,
   "projectFilePath": "D:\\Inno.Project\\CMT\\CMTClass\\CMTClass.csproj",
   "expectedPackageFiles": [
@@ -23,11 +23,16 @@
     "C:\\Users\\zhili.lin\\.nuget\\packages\\libtorch-cuda-11.7-win-x64-part9-primary\\1.13.0.1\\libtorch-cuda-11.7-win-x64-part9-primary.1.13.0.1.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp.nativeassets.linux.nodependencies\\2.88.3\\skiasharp.nativeassets.linux.nodependencies.2.88.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp\\0.99.1\\torchsharp.0.99.1.nupkg.sha512",
-    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp-cuda-windows\\0.99.1\\torchsharp-cuda-windows.0.99.1.nupkg.sha512"
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchsharp-cuda-windows\\0.99.1\\torchsharp-cuda-windows.0.99.1.nupkg.sha512",
+    "C:\\Users\\zhili.lin\\.nuget\\packages\\torchvision\\0.99.1\\torchvision.0.99.1.nupkg.sha512"
   ],
   "logs": []
 }

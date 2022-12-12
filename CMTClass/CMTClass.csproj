@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="System.Collections" Version="4.3.0" />
     <PackageReference Include="TorchSharp-cuda-windows" Version="0.99.1" />
+    <PackageReference Include="TorchVision" Version="0.99.1" />
   </ItemGroup>
 
 </Project>

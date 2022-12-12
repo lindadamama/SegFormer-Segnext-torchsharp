@@ -1,0 +1,12 @@
+D:\Inno.Project\CMT\SegNext\bin\Debug\net7.0\SegNext.deps.json
+D:\Inno.Project\CMT\SegNext\bin\Debug\net7.0\SegNext.dll
+D:\Inno.Project\CMT\SegNext\bin\Debug\net7.0\SegNext.pdb
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.csproj.AssemblyReference.cache
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.AssemblyInfoInputs.cache
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.AssemblyInfo.cs
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.csproj.CoreCompileInputs.cache
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.dll
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\refint\SegNext.dll
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\SegNext.pdb
+D:\Inno.Project\CMT\SegNext\obj\Debug\net7.0\ref\SegNext.dll

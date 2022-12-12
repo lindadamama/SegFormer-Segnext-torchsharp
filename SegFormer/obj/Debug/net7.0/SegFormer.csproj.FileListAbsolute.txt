@@ -1,0 +1,12 @@
+D:\Inno.Project\CMT\SegFormer\bin\Debug\net7.0\SegFormer.deps.json
+D:\Inno.Project\CMT\SegFormer\bin\Debug\net7.0\SegFormer.dll
+D:\Inno.Project\CMT\SegFormer\bin\Debug\net7.0\SegFormer.pdb
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.csproj.AssemblyReference.cache
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.AssemblyInfoInputs.cache
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.AssemblyInfo.cs
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.csproj.CoreCompileInputs.cache
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.dll
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\refint\SegFormer.dll
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\SegFormer.pdb
+D:\Inno.Project\CMT\SegFormer\obj\Debug\net7.0\ref\SegFormer.dll
