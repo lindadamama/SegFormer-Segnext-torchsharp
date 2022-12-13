@@ -24,7 +24,6 @@ namespace SegNext
         }
         public override Tensor forward(Tensor x)
         {
-
             return this.module.forward(x);
         }
     }

@@ -38,7 +38,6 @@ namespace SwinUnet
         }
         public override Tensor forward(Tensor x)
         {
-
             return this.net.forward(x);
         }
     }
