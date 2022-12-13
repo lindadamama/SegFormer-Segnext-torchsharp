@@ -24,3 +24,12 @@
 *.CopyComplete
 *.dll
 /CMTClass/obj/Debug/net7.0/CMTClass.assets.cache
+/.vs/CMT/FileContentIndex/fc94a627-d04d-442f-8fd0-76f5264d8b12.vsidx
+/.vs/CMT/FileContentIndex/6f1f3807-90b6-4b52-baa1-dcc1e56edf7d.vsidx
+/.vs/CMT/FileContentIndex/d2f7a879-534b-47a2-988f-609807dc845c.vsidx
+/.vs/CMT/FileContentIndex/c24dae14-1b88-45cf-99f4-0eed84865edb.vsidx
+/.vs/CMT/v17/.futdcache.v2
+/.vs/CMT/DesignTimeBuild/.dtbcache.v2
+/.vs/ProjectEvaluation/cmt.metadata.v5.2
+/.vs/ProjectEvaluation/cmt.projects.v5.2
+/.vs/CMT/v17/.suo
