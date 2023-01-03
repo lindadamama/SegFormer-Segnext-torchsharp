@@ -15,7 +15,7 @@ namespace SegNext
     public class NormLayer : Module<Tensor, Tensor>
     {
         Module<Tensor, Tensor> norm;
-        public NormLayer(int in_channels, Norm_typeEnum norm_TypeEnum,   string name = "") : base(name)
+        public NormLayer(int in_channels, Norm_typeEnum norm_TypeEnum,   ) : base("")
         {
             if (norm_TypeEnum== Norm_typeEnum.batch_norm) 
             {

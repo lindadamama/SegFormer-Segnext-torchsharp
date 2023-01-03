@@ -8,7 +8,7 @@ namespace SwinUnet
     public class AttentionModule : Module<Tensor, Tensor>
     {
         Sequential net;
-        public AttentionModule(int in_channels, int out_channels, string name = "") : base(name)
+        public AttentionModule(int in_channels, int out_channels) : base("")
         {
 
             RegisterComponents();

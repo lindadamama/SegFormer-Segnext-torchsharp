@@ -13,7 +13,7 @@ namespace SegNext
     public class HamDecoder : Module<Tensor, Tensor>
     {
         Sequential module;
-        public HamDecoder(int in_channels, int out_channels,  int[] enc_embed_dims , string name = "") : base(name)
+        public HamDecoder(int in_channels, int out_channels,  int[] enc_embed_dims ) : base("")
         {
             if (enc_embed_dims.Length== 0) 
             {
@@ -25,15 +25,11 @@ namespace SegNext
             {
                 count += enc_embed_dims[i];
             }
-            this.module = nn.Sequential
-                (
-                new ConvRelu(count, ham_channels),
-                //new HamBurger(ham_channels, config),
-                new ConvRelu(ham_channels, out_channels)
-
-                );
-
-            RegisterComponents();
+            this.module = nn.Sequential();
+            this.module.append(new ConvRelu(count, ham_channels));
+            // this.module.append(new HamBurger(ham_channels, config));
+            this.module.append(new ConvRelu(ham_channels, out_channels) );
+            this.RegisterComponents();
             if (Config.DeviceType == DeviceType.CUDA) this.to(DeviceType.CUDA);
         }
 

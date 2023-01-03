@@ -13,7 +13,7 @@ namespace SegNext
     public class BlockFFN : Module<Tensor, Tensor>
     {
         Sequential module;
-        public BlockFFN(int in_channels, int out_channels, int hid_channels, float ls_init_val = 1e-2f, float drop_path = 0.0f, string name = "") : base(name)
+        public BlockFFN(int in_channels, int out_channels, int hid_channels, float ls_init_val = 1e-2f, float drop_path = 0.0f) : base("")
         {
             this.module = nn.Sequential();
             this.module.append(new NormLayer(in_channels, Config.Norm_TypeEnum));

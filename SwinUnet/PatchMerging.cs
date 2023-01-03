@@ -18,7 +18,7 @@ namespace SwinUnet
         Module<Tensor, Tensor> norm_layer, reduction;
         int[] input_resolution;
         int dim;
-        public PatchMerging(int[] input_resolution, int dim, Module<Tensor, Tensor> norm_layer, string name = "") : base(name)
+        public PatchMerging(int[] input_resolution, int dim, Module<Tensor, Tensor> norm_layer) : base("")
         {
             this.dim = dim;
             this.input_resolution = input_resolution;

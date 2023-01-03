@@ -31,7 +31,7 @@ namespace SwinUnet
         int shift_size;
         float mlp_ratio;
         public SwinTransformerBlock(int dim, int[] input_resolution, int num_heads, float qk_scale, int window_size = 7, int shift_size = 0,
-                float mlp_ratio = 4, bool qkvbias = true, float drop = 0, float attn_drop = 0, float drop_path = 0, string name = "") : base(name)
+                float mlp_ratio = 4, bool qkvbias = true, float drop = 0, float attn_drop = 0, float drop_path = 0) : base("")
         {
 
             this.dim = dim;

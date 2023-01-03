@@ -5,25 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using static TorchSharp.torch.nn;
 using static TorchSharp.torch;
-using TorchSharp;
 using TorchSharp.Modules;
+using TorchSharp;
 
 namespace SegNext
 {
-
-    public class AttentionModule : Module<Tensor, Tensor>
+    public class HamBurger : Module<Tensor, Tensor>
     {
         Sequential net;
-        public AttentionModule(int in_channels, int out_channels,  ) : base("")
+        public HamBurger(int in_channels, int out_channels) : base("")
         {
             RegisterComponents();
-            if(Config.DeviceType==DeviceType.CUDA) this.to(DeviceType.CUDA);
+            if (Config.DeviceType == DeviceType.CUDA) this.to(DeviceType.CUDA);
         }
         public override Tensor forward(Tensor x)
         {
             return this.net.forward(x);
         }
     }
-
-      
 }

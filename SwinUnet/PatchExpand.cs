@@ -18,7 +18,7 @@ namespace SwinUnet
         int dim;
         Module<Tensor, Tensor> expand;
         Module<Tensor, Tensor> norm;
-        public PatchExpand(int[] input_resolution, int dim, int dim_scale = 2, string name = "") : base(name)
+        public PatchExpand(int[] input_resolution, int dim, int dim_scale = 2) : base("")
         {
             this.input_resolution = input_resolution;
             this.dim = dim;

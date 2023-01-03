@@ -7,7 +7,6 @@ using static TorchSharp.torch.nn;
 using static TorchSharp.torch;
 using TorchSharp;
 using Google.Protobuf.WellKnownTypes;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Text.RegularExpressions;
 using TorchSharp.Modules;
 
@@ -16,7 +15,7 @@ namespace SegNext
     public class ConvBNRelu : Module<Tensor, Tensor>
     {
         Sequential module;
-        public ConvBNRelu(int in_channels, int out_channels, int kernel = 3, int stride = 1, string padding = "same", int dilation = 1, int groups = 1, string name = "") : base(name)
+        public ConvBNRelu(int in_channels, int out_channels, int kernel = 3, int stride = 1, string padding = "same", int dilation = 1, int groups = 1) : base("")
         {
             int pd = 1;
             if (padding == "same")

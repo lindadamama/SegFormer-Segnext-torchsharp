@@ -17,7 +17,7 @@ namespace SegFormer
         Tensor g;
         Tensor b;
         float eps;
-        public LayerNorm(int dim,float eps = 1e-5f, string name = "") : base(name)
+        public LayerNorm(int dim,float eps = 1e-5f) : base("")
         {
             this.eps = eps; 
             this.g = Parameter(torch.ones(1, dim, 1, 1));

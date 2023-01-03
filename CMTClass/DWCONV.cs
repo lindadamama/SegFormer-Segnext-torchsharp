@@ -13,7 +13,7 @@ namespace CMTClass
     {
         public string Name { get; set; }
         Module<Tensor, Tensor> conv;
-        public DWCONV(int in_channels,int out_channels,int stride =1,int kernelSize= 3,int padding= 1, DeviceType device = DeviceType.CUDA, string name = "") : base(name)
+        public DWCONV(int in_channels,int out_channels,int stride =1,int kernelSize= 3,int padding= 1, DeviceType device = DeviceType.CUDA) : base("")
         {
            
             this.Name = name;

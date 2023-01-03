@@ -14,7 +14,7 @@ namespace SegNext
     public class DWConv3x3 : Module<Tensor, Tensor>
     {
         Module<Tensor, Tensor> DWConv;
-        public DWConv3x3 (int dim= 768,  string name = "") : base(name)
+        public DWConv3x3 (int dim= 768) : base("")
         {
             this.DWConv = nn.Conv2d(dim, dim, 3, 1, 1, bias : true, groups : dim);
             RegisterComponents();

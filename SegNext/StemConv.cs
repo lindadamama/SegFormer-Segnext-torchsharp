@@ -14,7 +14,7 @@ namespace SegNext
     public class StemConv : Module<Tensor, Tensor>
     {
         Sequential module;
-        public StemConv(int in_channels, int out_channels, float bn_momentum = 0.99f, string name = "") : base(name)
+        public StemConv(int in_channels, int out_channels, float bn_momentum = 0.99f) : base("")
         {
             this.module = nn.Sequential();
             this.module.append(nn.Conv2d(in_channels, out_channels / 2, kernelSize: (3, 3), stride: (2, 2), padding: (1, 1)));

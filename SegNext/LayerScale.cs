@@ -13,7 +13,7 @@ namespace SegNext
     {
         Tensor layer_scale;
         float init_value;
-        public LayerScale(int in_channels, float init_value = 1e-2f,  string name = "") : base(name)
+        public LayerScale(int in_channels, float init_value = 1e-2f,  ) : base("")
         {
             var tensor = init_value * torch.ones(in_channels);
             this.layer_scale = nn.Parameter(tensor, requires_grad: true);

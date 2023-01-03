@@ -9,7 +9,7 @@ namespace CMTClass
     {
         Module<Tensor, Tensor> patch_aggregation;
         public string Name;
-        public PatchAggregate(int in_channel, int out_channel, DeviceType device = DeviceType.CUDA, string name = "") : base(name)
+        public PatchAggregate(int in_channel, int out_channel, DeviceType device = DeviceType.CUDA) : base("")
         {
             this.name = name;
             patch_aggregation = new Conv2x2(in_channel, out_channel, stride: 2);

@@ -24,7 +24,7 @@ namespace SegNext
         Module<Tensor, Tensor> conv2_1;
         Module<Tensor, Tensor> conv2_2;
         Module<Tensor, Tensor> conv3;
-        public MSCA(int dim, string name = "") : base(name)
+        public MSCA(int dim) : base("")
         {
             module = nn.Sequential();
             conv0 = nn.Conv2d(dim, dim, 5, padding: 2, groups: dim);

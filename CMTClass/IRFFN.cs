@@ -17,7 +17,7 @@ namespace CMTClass
         Sequential conv1;
         Sequential dwconv;
         Sequential conv2;
-        public IRFFN(int in_channels = 46, float R = 3.6f, DeviceType device = DeviceType.CUDA, string name = "") : base(name)
+        public IRFFN(int in_channels = 46, float R = 3.6f, DeviceType device = DeviceType.CUDA) : base("")
         {
             this.name = name;
             var exp_channels = Convert.ToInt32(in_channels * R);

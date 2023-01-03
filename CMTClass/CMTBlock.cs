@@ -17,7 +17,7 @@ namespace CMTClass
         Module<Tensor, Tensor> lpu;
         Module<Tensor, Tensor> lmhsa;
         Module<Tensor, Tensor> irffn;
-        public CMTBlock(int img_size, int stride, int d_k, int d_v, int num_heads, float R = 3.6f, int in_channels = 46, DeviceType device = DeviceType.CUDA, string name = "") : base(name)
+        public CMTBlock(int img_size, int stride, int d_k, int d_v, int num_heads, float R = 3.6f, int in_channels = 46, DeviceType device = DeviceType.CUDA) : base("")
         {
             this.name = name;
             this.lpu = new LPU(in_channels, in_channels);

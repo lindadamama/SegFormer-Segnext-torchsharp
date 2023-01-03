@@ -14,7 +14,7 @@ namespace SwinUnet
     public class Mlp : Module<Tensor, Tensor>
     {
         Sequential net = nn.Sequential();
-        public Mlp(int in_features, int hidden_features, int out_features, Module<Tensor, Tensor> act_layer, float drop = 0, string name = "") : base(name)
+        public Mlp(int in_features, int hidden_features, int out_features, Module<Tensor, Tensor> act_layer, float drop = 0) : base("")
         {
             if (out_features == 0) 
             {

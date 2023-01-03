@@ -13,7 +13,7 @@ namespace SegNext
     public class MyLayerNorm : Module<Tensor, Tensor>
     {
         Module<Tensor, Tensor> norm;
-        public MyLayerNorm(int in_channels,  string name = "") : base(name)
+        public MyLayerNorm(int in_channels) : base("")
         {
             this.norm = nn.LayerNorm(in_channels, eps : 1e-5);
             RegisterComponents();

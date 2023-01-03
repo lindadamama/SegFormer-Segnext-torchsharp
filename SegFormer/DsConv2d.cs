@@ -16,7 +16,7 @@ namespace SegFormer
     public class DsConv2d : Module<Tensor, Tensor>
     {
         Sequential net;
-        public DsConv2d(int dim_in, int dim_out, int kernel_size, int padding, int stride = 1, bool bias = true, string name = "") : base(name)
+        public DsConv2d(int dim_in, int dim_out, int kernel_size, int padding, int stride = 1, bool bias = true) : base("")
         {
             net = nn.Sequential();
             net.append(nn.Conv2d(dim_in, dim_in, kernelSize: kernel_size, padding: padding, groups: dim_in, stride: stride, bias: bias));
