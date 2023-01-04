@@ -14,7 +14,7 @@ namespace SegNext
     public class StochasticDepth : Module<Tensor, Tensor>
     {
         Sequential module;
-        public StochasticDepth(float p= 0.5f,string mode="row" ,  ) : base("")
+        public StochasticDepth(float p= 0.5f,string mode="row") : base("")
         {
 
             RegisterComponents();

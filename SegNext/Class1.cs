@@ -14,7 +14,7 @@ namespace SegNext
     public class AttentionModule : Module<Tensor, Tensor>
     {
         Sequential net;
-        public AttentionModule(int in_channels, int out_channels,  ) : base("")
+        public AttentionModule(int in_channels, int out_channels) : base("")
         {
             RegisterComponents();
             if(Config.DeviceType==DeviceType.CUDA) this.to(DeviceType.CUDA);

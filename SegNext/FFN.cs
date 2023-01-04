@@ -13,7 +13,7 @@ namespace SegNext
     public class FFN : Module<Tensor, Tensor>
     {
         Sequential m;
-        public FFN(int in_channels, int out_channels,int hid_channels,  ) : base("")
+        public FFN(int in_channels, int out_channels,int hid_channels) : base("")
         {
             this.m = nn.Sequential ();
             this.m.append(nn.Conv2d(in_channels, hid_channels, 1));

@@ -17,7 +17,7 @@ namespace CMTClass
     public class LPU:Module<Tensor,Tensor>
     {
         Module<Tensor, Tensor> DWConv;
-        public LPU(int in_channels,int  out_channels, DeviceType device=DeviceType.CUDA, string name="") : base(name) 
+        public LPU(int in_channels,int  out_channels, DeviceType device=DeviceType.CUDA) : base("") 
         {
             this.DWConv = new DWCONV( in_channels,out_channels);
             RegisterComponents();

@@ -22,7 +22,7 @@ namespace CMTClass
         Module<Tensor, Tensor> patch4;
         Module<Tensor, Tensor> avg_pool;
         Sequential stage1, stage2, stage3, stage4, fc;
-        public CMT( int in_channels = 3,int stem_channel = 32, float R = 3.6f, int img_size = 224,int num_class = 10, DeviceType device=DeviceType.CUDA, string name="") : base(name)
+        public CMT( int in_channels = 3,int stem_channel = 32, float R = 3.6f, int img_size = 224,int num_class = 10, DeviceType device=DeviceType.CUDA) : base("")
         {
             this.name = name;
             var size = new int[] { img_size / 4, img_size / 8, img_size / 16, img_size / 32 }; 

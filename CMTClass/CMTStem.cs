@@ -26,7 +26,7 @@ namespace CMTClass
         Module<Tensor, Tensor> conv3;
         Module<Tensor, Tensor> gelu3;
         Module<Tensor, Tensor> bn3;
-        public CMTStem(int in_channels,int out_channels,DeviceType device=DeviceType.CUDA, string name="") : base(name)
+        public CMTStem(int in_channels,int out_channels,DeviceType device=DeviceType.CUDA) : base("")
         {
 
             this.Name = name;

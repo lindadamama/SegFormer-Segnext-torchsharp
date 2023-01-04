@@ -27,7 +27,7 @@ namespace CMTClass
         float num_patches;
         int heads;
         int d_k, d_v, channels;
-        public LMHSA( int input_size, int channels, int d_k, int d_v, int stride, int heads, float dropout, DeviceType device=DeviceType.CUDA, string name="") : base(name)
+        public LMHSA( int input_size, int channels, int d_k, int d_v, int stride, int heads, float dropout, DeviceType device=DeviceType.CUDA) : base("")
         {
             this.Name = name;
             this.heads = heads;
